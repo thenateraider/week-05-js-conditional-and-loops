@@ -14,7 +14,20 @@
 // Use one loop for the rows and a nested loop (or repetition) for the columns.
 
 function rectangle(width, height) {
-  // TODO: replace this with your implementation
+  let rectOutput ="";
+
+  if (width < 1 || height < 1) return "";
+
+  for(let h=0;h<height;h++){
+    if (h>0) { rectOutput += "\n" }
+
+    for(let w=0;w<width;w++){
+      rectOutput += "*"
+    }
+    
+  }
+  return rectOutput;
+
 }
 
 // --- Tests (do not edit) ---
