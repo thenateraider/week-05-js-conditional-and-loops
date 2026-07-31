@@ -11,7 +11,18 @@
 // Use an if / else if / else chain. Do not worry about scores outside 0..100.
 
 function letterGrade(score) {
-  // TODO: replace this with your implementation
+if (score >= 90){
+  return "A";
+}  else if (score >=80 && score <=89){
+  return "B";
+}  else if (scoore >=70 && score <=79){
+  return "C";
+} else if (score >=60 && score <=69){
+  return "D";
+} else {
+  return "F";
+}
+ // TODO: replace this with your implementation
 }
 
 // --- Tests (do not edit) ---

@@ -8,7 +8,7 @@
 // case labels with no break between them (fall-through).
 
 function dayType(dayNumber) {
-  // TODO: replace this with your implementation
+ if()
 }
 
 // --- Tests (do not edit) ---
